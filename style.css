@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: cursive;
+}
+#sitename {
+  font-family: "Freehand", cursive;
+  color: white;
+  font-style: italic;
+  font-size: 45px;
+  font-weight: bold;
+  text-shadow: 2px 3px 4px rgba(3, 70, 70, 0.822);
+}
+
+#sitename:hover {
+  text-align: right;
+  text-shadow: 2px 3px 4px rgba(3, 70, 70, 0.822);
+  text-transform: uppercase;
+  font-size: 45px;
+  color: black;
+  font-style: italic;
+}
+header:hover {
+  background-color: rgb(88, 8, 238);
+}
+
+header {
+  padding: 40px;
+  background-color: rgba(43, 189, 194, 0.89);
+}
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  float: left;
+  color: white;
+}
+
+nav a:hover {
+  color: green;
+}
+
+main {
+  background-color: #ffffff;
+  text-align: center;
+}
+.content:hover {
+  color: rgba(109, 3, 74, 0.822);
+  text-shadow: 2px 3px 4px rgba(3, 70, 70, 0.822);
+}
+
+h2 {
+  padding: 20px;
+}
+
+section:nth-child(even) {
+  background-color: rgb(241, 241, 241);
+}
+
+section {
+  min-height: 100vh;
+}
+/* Owner Name */
+h3#owner {
+  font-family: "Lobster", cursive;
+}
+h3#owner:hover {
+  letter-spacing: 1rem;
+  color: rgba(9, 105, 105, 0.822);
+  text-shadow: 2px 3px 4px rgba(9, 105, 105, 0.822);
+}
+a {
+  text-decoration: none;
+  color: gray;
+}
+a.sc:hover {
+  text-decoration-line: underline;
+  color: rgb(43, 198, 226);
+}
+
+video {
+  padding: 10px;
+}
+
+iframe {
+  height: 75vh;
+}
+
+img {
+  padding: 10px;
+}
+
+section h4 + h5 {
+  margin: 10px;
+  font-family: "Kaushan Script", cursive;
+}
+section h4 {
+  line-height: 2em;
+  word-spacing: 1rem;
+  text-indent: 10%;
+}
+section h4::first-line {
+  color: rgb(10, 73, 52);
+}
+
+footer {
+  background-color: #333;
+  overflow: hidden;
+}
+
+footer a {
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  float: left;
+  color: white;
+}
